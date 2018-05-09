@@ -1,14 +1,14 @@
 """Generate Configuration from Catalyst switch to Nexus switch
 
 Usage:
-  listado_vlans.py  (-h | --help)
-  listado_vlans.py  --version
-  listado_vlans.py  -v <vlans>
+  cat2nexus.py  (-h | --help)
+  cat2nexus.py  --version
+  cat2nexus.py  -v <vlans>
   
 
 Options:
   -h --help                             Show this screen.
-  -v <vlans>							listado de vlans: ej( -v '1-10,16,100,101-200)
+  -f <config_file>					 	Config File: ej( -v 'PATH/config-file.py')
   --version                             Show version.
 
 """
